@@ -1,22 +1,19 @@
-import './App.css';
-import PrimarySearchAppBar from "./Insta";
-
-
-
-
+import "./App.css"
+import PrimarySearchAppBar from "./Appbar";
+import PermanentDrawerRight from "./Drawer";
+import ActionAreaCard from "./Cards";
 
 
 
 
 function App() {
   return (<div>
-    <PrimarySearchAppBar/>
-    
-    
 
+    
+    <PrimarySearchAppBar/>
+    <PermanentDrawerRight/>
+    <ActionAreaCard/>
    
-    
-    
    
     
   </div>
@@ -25,3 +22,4 @@ function App() {
 }
 
 export default App;
+
